@@ -9,7 +9,7 @@ module.exports = {
   name: "warnings",
   description: "list or clear user warnings",
   category: "MODERATION",
-  userPermissions: ["KickMembers"],
+  userPermissions: ["ModerateMembers"],
   command: {
     enabled: true,
     minArgsCount: 1,
