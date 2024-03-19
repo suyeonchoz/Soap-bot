@@ -8,7 +8,7 @@ module.exports = {
   name: "warn",
   description: "warns the specified member",
   category: "MODERATION",
-  userPermissions: ["KickMembers"],
+  userPermissions: ["ModerateMembers"],
   command: {
     enabled: true,
     usage: "<ID|@member> [reason]",
