@@ -48,7 +48,7 @@ module.exports = {
         response = await getInviteLeaderboard(message, message.author, data.settings);
         break;
       case "rep":
-        response = await getRepLeaderboard(message.author);
+        response = await getRepLeaderboard(message, message.author, data.settings);
         break;
       default:
         response = "Invalid Leaderboard type. Choose either `xp`, `invite`or `rep`";
