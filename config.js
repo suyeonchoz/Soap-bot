@@ -1,6 +1,6 @@
 module.exports = {
-  OWNER_IDS: ["885368385595125791" , "869229454927462400" ], // Bot owner ID's
-  SUPPORT_SERVER: "https://discord.gg/7ttXPmZUz9", // Your bot support server
+  OWNER_IDS: ["885368385595125791" , "1020332536481730560" , "1211584107620859937"], // Bot owner ID's
+  SUPPORT_SERVER: "https://discord.gg/RegfN26DvW", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
     DEFAULT_PREFIX: ".", // Default prefix for the bot
@@ -9,7 +9,7 @@ module.exports = {
     SLASH: true, // Should the interactions be enabled
     CONTEXT: true, // Should contexts be enabled
     GLOBAL: true, // Should the interactions be registered globally
-    TEST_GUILD_ID: "1010813755975798794", // Guild ID where the interactions should be registered. [** Test you commands here first **]
+    TEST_GUILD_ID: "1230836776055345173", // Guild ID where the interactions should be registered. [** Test you commands here first **]
   },
   EMBED_COLORS: {
     BOT_EMBED: "#000706",
@@ -104,9 +104,9 @@ module.exports = {
 
   PRESENCE: {
     ENABLED: true, // Whether or not the bot should update its status
-    STATUS: "dnd", // The bot's status [online, idle, dnd, invisible]
+    STATUS: "online", // The bot's status [online, idle, dnd, invisible]
     TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
-    MESSAGE: ".gg/chillzone", // Your bot status message
+    MESSAGE: "over members in the server", // Your bot status message
   },
 
   STATS: {
